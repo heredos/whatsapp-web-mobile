@@ -1,0 +1,20 @@
+@-moz-document domain("web.whatsapp.com") {
+    .two ._aigw {
+        width: 0;
+        overflow: scroll;
+        flex: 0;
+    }
+    header:hover + ._aigw {
+        max-width: 100%;
+        flex: 100%;
+        background-color: #000;
+    }
+    .two ._aigw:hover {
+        max-width: 100%;
+        flex: 100%;
+        background-color: #000;
+    }
+    .two header {
+        background-color: #000;
+    }
+}
