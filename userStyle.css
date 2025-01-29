@@ -14,7 +14,11 @@
         flex: 100%;
         background-color: #000;
     }
-    .two header {
+    .two header:nth-of-type(1) {
         background-color: #000;
+        max-height: 100vh;
+    }
+    .two div:nth-of-type(4){
+        max-width: calc(100vw - 64px);
     }
 }
